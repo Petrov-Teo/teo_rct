@@ -36,3 +36,24 @@
     transform: rotate(360deg);
   }
 }
+
+body {
+  background-image: url(./img/istockphoto-1319844646-1024x1024.jpg);
+  object-fit: contain;
+  width: 100%;
+  background-repeat: repeat-x;
+}
+
+input {
+  border-radius: 15px;
+  border: bisque;
+  transform: scale(0.9);
+  transition: 400ms;
+}
+
+input:hover {
+  transform: scale(1.2);
+}
+label {
+  padding: 20px;
+}
