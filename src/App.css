@@ -38,6 +38,7 @@
 }
 
 body {
+  background-color: #212529;
   background-image: url(./img/istockphoto-1319844646-1024x1024.jpg);
   object-fit: contain;
   width: 100%;
@@ -49,6 +50,8 @@ input {
   border: bisque;
   transform: scale(0.9);
   transition: 400ms;
+  background-color: #212529;
+  color: white;
 }
 
 input:hover {
@@ -56,4 +59,18 @@ input:hover {
 }
 label {
   padding: 20px;
+}
+
+input::placeholder {
+  text-align: center;
+}
+img {
+  width: 20%;
+  object-fit: cover;
+  margin-top: 30px;
+  transition: 200ms;
+}
+img:hover {
+  transform: scale(1.2);
+  transition: 400ms;
 }
